@@ -1,92 +1,169 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Website Layout dengan Tabel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya</title>
 </head>
 <body>
+    <!-- Header dengan navigasi -->
+    <header>
+        <table width="100%" border="1">
+            <tr>
+                <td>
+                    <strong>brand</strong>
+                </td>
+                <td align="right">
+                    <a href="#header">Header</a> | 
+                    <a href="#biodata">Biodata</a> | 
+                    <a href="#portofolio">Portofolio</a>
+                </td>
+            </tr>
+        </table>
+    </header>
 
-    <table width="100%" border="0" cellspacing="0" cellpadding="10">
-        <tr>
-            <td><strong>Brand</strong></td>
-            <td align="right">
-                <a href="#header">Header</a> &nbsp;&nbsp;
-                <a href="#about">Biodata</a> &nbsp;&nbsp;
-                <a href="#portfolio">Portofolio</a>
-            </td>
-        </tr>
-    </table>
-    <hr>
+    <!-- Section utama -->
+    <section id="header">
+        <table width="100%" border="1">
+            <tr>
+                <td width="50%" valign="top">
+                    <h1>Selamat Datang di Website Saya</h1>
+                    <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
+                    <button>Pelajari lebih lanjut</button>
+                </td>
+                <td width="50%" align="center" valign="middle">
+                    <table border="1" width="300" height="200">
+                        <tr>
+                            <td align="center" valign="middle" bgcolor="#cccccc">
+                                <strong>600 x 400</strong>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </section>
 
-    <table id="header" width="100%" border="0" cellspacing="0" cellpadding="20">
-        <tr>
-            <td width="50%" valign="top">
-                <h1>Selamat Datang di Website Saya</h1>
-                <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
-                <button>Pelajari lebih lanjut</button>
-            </td>
-            <td width="50%" align="right">
-                <img src="https://via.placeholder.com/600x400" alt="Placeholder Gambar Besar">
-            </td>
-        </tr>
-    </table>
-    <hr>
+    <!-- Section About Me -->
+    <section id="biodata">
+        <table width="100%" border="1">
+            <tr>
+                <td>
+                    <h2 align="center">About Me</h2>
+                    <p align="center">A brief introduction about myself</p>
+                    
+                    <table width="100%">
+                        <tr>
+                            <td width="33%">
+                                <table border="1" width="100%">
+                                    <tr>
+                                        <td align="center" bgcolor="#f0f0f0">
+                                            <strong>Full Name</strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="33%">
+                                <table border="1" width="100%">
+                                    <tr>
+                                        <td align="center" bgcolor="#f0f0f0">
+                                            <strong>Education</strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="33%">
+                                <table border="1" width="100%">
+                                    <tr>
+                                        <td align="center" bgcolor="#f0f0f0">
+                                            <strong>Pekerjaan</strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table border="1" width="100%">
+                                    <tr>
+                                        <td align="center" bgcolor="#f0f0f0">
+                                            <strong>Contact</strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table border="1" width="100%">
+                                    <tr>
+                                        <td align="center" bgcolor="#f0f0f0">
+                                            <strong>Hobi</strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table border="1" width="100%">
+                                    <tr>
+                                        <td align="center" bgcolor="#f0f0f0">
+                                            <strong>Alamat</strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </section>
 
-    <table id="about" width="100%" border="0" cellspacing="0" cellpadding="10">
-        <tr>
-            <td align="center">
-                <h2>About Me</h2>
-                <p>A brief introduction about myself</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <table width="80%" align="center" border="0" cellspacing="15" cellpadding="10">
-                    <tr>
-                        <td align="center" bgcolor="#f0f0f0" style="border:1px solid #cccccc;">Full Name</td>
-                        <td align="center" bgcolor="#f0f0f0" style="border:1px solid #cccccc;">Education</td>
-                        <td align="center" bgcolor="#f0f0f0" style="border:1px solid #cccccc;">Pekerjaan</td>
-                    </tr>
-                    <tr>
-                        <td align="center" bgcolor="#f0f0f0" style="border:1px solid #cccccc;">Contact</td>
-                        <td align="center" bgcolor="#f0f0f0" style="border:1px solid #cccccc;">Hobi</td>
-                        <td align="center" bgcolor="#f0f0f0" style="border:1px solid #cccccc;">Alamat</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <hr>
-
-    <table id="portfolio" width="100%" border="0" cellspacing="0" cellpadding="20">
-        <tr>
-            <td align="center">
-                <h2>Portofolio</h2>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <table width="100%" border="0" cellspacing="15" cellpadding="0">
-                    <tr>
-                        <td align="center" valign="top" style="border:1px solid #cccccc; padding:15px;">
-                            <img src="https://via.placeholder.com/350x200" alt="Proyek 1"><br><br>
-                            <strong>Proyek 1</strong><br>
-                            Deskripsi proyek 1.
-                        </td>
-                        <td align="center" valign="top" style="border:1px solid #cccccc; padding:15px;">
-                            <img src="https://via.placeholder.com/350x200" alt="Proyek 2"><br><br>
-                            <strong>Proyek 2</strong><br>
-                            Deskripsi proyek 2.
-                        </td>
-                        <td align="center" valign="top" style="border:1px solid #cccccc; padding:15px;">
-                            <img src="https://via.placeholder.com/350x200" alt="Proyek 3"><br><br>
-                            <strong>Proyek 3</strong><br>
-                            Deskripsi proyek 3.
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-
+    <!-- Section Portfolio -->
+    <section id="portofolio">
+        <table width="100%" border="1">
+            <tr>
+                <td>
+                    <h2 align="center">Portofolio</h2>
+                    
+                    <table width="100%">
+                        <tr>
+                            <td width="33%" align="center">
+                                <table border="1" width="200" height="150">
+                                    <tr>
+                                        <td align="center" valign="middle" bgcolor="#cccccc">
+                                            <strong>350 x 200</strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p><strong>Proyek 1</strong></p>
+                                <p>Deskripsi proyek 1</p>
+                            </td>
+                            <td width="33%" align="center">
+                                <table border="1" width="200" height="150">
+                                    <tr>
+                                        <td align="center" valign="middle" bgcolor="#cccccc">
+                                            <strong>350 x 200</strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p><strong>Proyek 2</strong></p>
+                                <p>Deskripsi proyek 2</p>
+                            </td>
+                            <td width="33%" align="center">
+                                <table border="1" width="200" height="150">
+                                    <tr>
+                                        <td align="center" valign="middle" bgcolor="#cccccc">
+                                            <strong>350 x 200</strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p><strong>Proyek 3</strong></p>
+                                <p>Deskripsi proyek 3</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </section>
 </body>
 </html>
